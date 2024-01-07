@@ -1,0 +1,16 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+Создать новый проект
+{% end block %}
+
+{% block content %}
+Страница про нас
+<h1>Создать новый проект</h1>
+<from method ="post">
+    <input type="text" placeholder="Введите название" class="form-control"><br>
+    <textarea type="text" placeholder="Введите описание" class="form-control"></textarea><br>
+    <button type="submit" class="btn btn-success">Добавить</button>
+
+</from>
+{% end block %}
